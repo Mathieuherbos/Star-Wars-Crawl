@@ -2,8 +2,19 @@ body
 {
     background-image: url("images/etoiles.jpg");
     text-align: center;
+
 }
 .introduction 
 {
     color: lightskyblue;
+}
+.texte
+{
+    color:yellow;
+}
+.tout
+{
+    position: absolute;
+    transform-style: preserve-3d;
+    transform: rotateX(60deg);
 }

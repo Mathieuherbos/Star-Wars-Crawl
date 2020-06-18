@@ -20,7 +20,7 @@ body
     /* Position the element so we can adjust the top property in the animation */
     position: relative;
     /* Making sure the text is fully off the screen at the start and end of the animation */
-    top: 150px;
+    top: 300px;
     /* Defines the skew origin at the very center when we apply transforms on the animation */
     transform-origin: 50% 100%;
 }
@@ -51,7 +51,7 @@ body
     /* Defines the skew origin at the very center when we apply transforms on the animation */
     transform-origin: 50% 100%;
     /* Adds the crawl animation, which plays for one minute */
-    animation: crawl 60s linear;
+    animation: crawl 55s linear;
 }
 .fade 
 {
